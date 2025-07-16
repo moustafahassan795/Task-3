@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aviation Form </title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="aviation logo" class="logo">
+    
+        <h1 class="title">Aviation Form</h1>
+
+        <form action="#" method="post">
+            <div class="name">
+            <label for="name">Full Name(In English)</label>
+            <input type="text" id="name" name="name" placeholder="Enter Full Name" required>
+            </div>
+
+            <div class="number">
+            <label for="number" >Phone Number</label>
+            <input type="tel" id="number" name="number" placeholder="Enter Phone Number" min="01000000000" max="01599999999" required>
+            </div>
+
+            <div class="email">
+            <label for="email" >Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email"  required>
+            </div>
+
+            <div class="year">
+    <label for="year" > Academic Year </label>
+    <select name="Academic Year" id="year" required >
+        <option value="" selected disabled >Academic Year</option>
+        <option value="1">Freshman  </option>
+        <option value="2">Sophomore </option>
+        <option value="3">Junior    </option>
+        <option value="4">Senior 1  </option>
+        <option value="5">Senior 2  </option>
+    </select>
+</div>
+<div class="department">
+    <label for="dep" > Department </label>
+    <select name="Department" id="dep" required>
+        <option value="" selected disabled >Department</option>
+        <option value="Electrical">Electrical</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Architecture">Architecture</option>
+        <option value="Civil">Civil</option>
+        
+    </select>
+</div> 
+<div class="first_preference">
+    <label for="1st_pre" > First Prefrence </label>
+    <select id="1st_pre" name="First Prefrence" required>
+        <option value="" selected disabled >First Prefrence   </option>
+        <option value="Arduino">Arduino                       </option>
+        <option value="Embedded">Embedded                     </option>
+        <option value="Web Development">Web Development       </option>
+        <option value="Revit">Revit                           </option>
+        <option value="Solid Works">Solid Works               </option>
+        <option value="Automotive">Automotive                 </option>
+        <option value="Knx">Knx                               </option>
+        <option value="Jet Engine">Jet Engine                 </option>
+        <option value="Structrul Analysis">Structrul Analysis </option>
+    </select>
+</div>
+ 
+<div class="second_preference"> 
+    <label for="2nd_pre" > Second Prefrence </label>
+    <select id="2nd_pre" name="Second Prefrence" required>
+        <option value="" selected disabled >Second Prefrence  </option>
+        <option value="Arduino">Arduino                       </option>
+        <option value="Embedded">Embedded                     </option>
+        <option value="Web Development">Web Development       </option>
+        <option value="Revit">Revit                           </option>
+        <option value="Solid Works">Solid Works               </option>
+        <option value="Automotive">Automotive                 </option>
+        <option value="Knx">Knx                               </option>
+        <option value="Jet Engine">Jet Engine                 </option>
+        <option value="Structrul Analysis">Structrul Analysis </option>
+        
+    </select>
+</div>
+
+            
+            <button type="submit" class="register">Register</button>
+        </form>
+        
+    </div>
+</body>
+</html>

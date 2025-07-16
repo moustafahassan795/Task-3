@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: sans-serif;
+}
+html {
+        font-size: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border-radius: 7px;
+    width: 100%;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 10px;
+}
+.logo {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+.name, .number, .year, .department, .first_preference, .second_preference {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+.name label, .number label, .year label, .department label, .first_preference label, .second_preference label {
+    color: white;
+    font-size: 1.7rem;
+}
+.email label{
+    color: white;
+    font-size: 1.7rem;
+    width: 100%;
+    display: block;
+
+}
+.email input{
+    font-size: 1.7rem;
+    width: 100%;
+     padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:white
+    color black;
+}
+.name input, .number input,  .year select, .department select, .first_preference select, .second_preference select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:white
+    color black;
+}
+.register {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(35, 101, 194, 0.6);
+    color: white;
+    
+}
+.register:hover {
+    background-color: rgba(35, 101, 194, 1);
+    cursor: pointer;
+    transition: 300ms;
+   
+}
