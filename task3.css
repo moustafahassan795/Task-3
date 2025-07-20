@@ -25,7 +25,7 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
 }
 .logo {
     width: 60%;
@@ -43,11 +43,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 40%;
+    width: 49%;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .name label, .number label, .year label, .department label, .first_preference label, .second_preference label {
     color: white;
     font-size: 1.7rem;
+}
+.email {
+    width: 100%;
+    margin: 15px 0;
+    display: block;
 }
 .email label{
     color: white;
@@ -80,6 +91,7 @@ body {
     border: none;
     background-color: rgba(35, 101, 194, 0.6);
     color: white;
+    margin: 7px 0;
     
 }
 .register:hover {
